@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { DaySchedule } from '../types';
+import { DaySchedule } from '../types.ts';
 import { Clock, Star } from 'lucide-react';
 
 interface Props {

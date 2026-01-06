@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import { Calendar, MapPin, Phone, Info, GraduationCap, Users, Heart } from 'lucide-react';
-import { GarlandDecoration, DAY_1_SCHEDULE, DAY_2_SCHEDULE } from './constants';
-import { ScheduleTable } from './components/ScheduleTable';
-import { SectionHeader } from './components/SectionHeader';
+import { Calendar, MapPin, Phone, GraduationCap, Users, Heart } from 'lucide-react';
+import { GarlandDecoration, DAY_1_SCHEDULE, DAY_2_SCHEDULE } from './constants.tsx';
+import { ScheduleTable } from './components/ScheduleTable.tsx';
+import { SectionHeader } from './components/SectionHeader.tsx';
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'day1' | 'day2'>('day1');
