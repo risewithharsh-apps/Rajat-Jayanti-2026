@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ScheduleItem, DaySchedule } from './types';
+import { ScheduleItem, DaySchedule } from './types.ts';
 
 export const DAY_1_SCHEDULE: DaySchedule = {
   dayNumber: "प्रथम दिवस",
@@ -14,9 +14,9 @@ export const DAY_1_SCHEDULE: DaySchedule = {
       activity: "चेतना विकास मूल्य शिक्षा: अध्ययन, अभ्यास, प्रयास और उपलब्धि",
       type: 'highlight'
     },
-    { time: "1:00", activity: "प्रदर्शनी का उद्घाटन" },
-    { time: "1:00 - 3:00", activity: "लंच" },
-    { time: "अपराह्न 3:00 - 4:00", activity: "रजत जयंती प्रदर्शनी का अवलोकन" },
+    { time: "दोपहर 1:00", activity: "प्रदर्शनी का उद्घाटन" },
+    { time: "दोपहर 1:00 - 3:00", activity: "लंच" },
+    { time: "दोपहर 3:00 - 4:00", activity: "रजत जयंती प्रदर्शनी का अवलोकन" },
     { 
       time: "संध्या 4:00 - 7:00", 
       activity: "सांस्कृतिक कार्यक्रम",
@@ -40,8 +40,8 @@ export const DAY_2_SCHEDULE: DaySchedule = {
       time: "सुबह 11:00 - 1:00", 
       activity: "परिवार मूलक स्वराज्य व्यवस्था: मध्यस्थ दर्शन के अध्येताओं एवं प्रबुद्ध जनों के साथ संवाद" 
     },
-    { time: "1:00 - 3:00", activity: "लंच" },
-    { time: "अपराह्न 3:00 - 4:00", activity: "रजत जयंती प्रदर्शनी का अवलोकन" },
+    { time: "दोपहर 1:00 - 3:00", activity: "लंच" },
+    { time: "दोपहर 3:00 - 4:00", activity: "रजत जयंती प्रदर्शनी का अवलोकन" },
     { 
       time: "संध्या 4:00 - 7:00", 
       activity: "सांस्कृतिक कार्यक्रम",
